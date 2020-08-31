@@ -1,0 +1,47 @@
+.displayWeatherDetails{
+  display: flex;
+  flex-direction: column;
+}
+.displayWeatherDetails div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.selectedPlace {
+  text-align: left;
+  padding-left: 10%;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #878787;
+  font-weight: bold;
+}
+.forecastDates {
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+.forecastTemperature i, .forecastFeels i, .forecastTime i{
+  margin-right:10px;
+  color:#FFE168;
+}
+.forecastTemperature, .forecastFeels {
+  font-size: 2rem;
+}
+.forecastTime{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.forecastDates li {
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.forecastDates li i{
+  color:#FFE168;
+  margin-right:5px;
+}
